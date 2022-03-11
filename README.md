@@ -4,7 +4,7 @@ Projeto em que se foi desenvolvido uma playlist de músicas que representam meus
 
 ## Demonstração
 
-<img src='/4. O que você ouve, na verdade, é o que você é/Spotfly-demo.gif' width='480px'>
+<img src='/4. O que você ouve, na verdade, é o que você é/Spotfly-demo.gif' width='800px'>
 
 ## Aprendizados
 
