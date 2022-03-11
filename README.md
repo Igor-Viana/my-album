@@ -9,3 +9,11 @@ Projeto em que se foi desenvolvido uma playlist de músicas que representam meus
 ## Aprendizados
 
 Para que eu pudesse desenvolver esse desafio, eu tive de aprender css flexbox, propriedades de position, e também à como prototipar com o Figma.
+
+## Tecnologias Usadas
+
+Para se Realizar o desenvolvimento desse aplicativo web, eu tive de utilizar as seguintes tecnologias:
+
+- HTML5;
+- CSS3(FlexBox Model);
+- Figma.
