@@ -1,0 +1,72 @@
+body {
+    background-color: #121212;
+    margin: 0;
+    font-family: 'roboto', 'arial';
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    height: 88px;
+    border-radius: 30px;
+    background-color: #101010;
+    text-align: center;
+}
+
+#footer-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#icon {
+    width: 70px;
+    transform: rotate(90deg);
+}
+
+/* Music card */
+#music-card {
+    text-align: center;
+}
+
+#music-card img {
+    width: 300px;
+    margin: 30px;
+}
+
+h2, h3 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    color: #dcdcdc;
+    font-size: 16px;
+}
+/* Music Lyrics */
+#music-lyrics {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #282828;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+
+
+@media (max-width: 480px) {
+    
+    #search-bar {
+        display: none;
+    }
+
+    
+
+
+    
+}

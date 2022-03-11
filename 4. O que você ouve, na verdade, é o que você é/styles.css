@@ -1,0 +1,133 @@
+body {
+    background-color: #121212;
+    margin: 0;
+    font-family: 'roboto', 'arial';
+}
+/*  estilos nav bar */
+#icon {
+    position: relative;
+    width: 70px;
+    left: 30px;
+    top: 25px;
+    transform: rotate(90deg);
+}
+
+footer {
+    width: 100%;
+    background-color: #101010;
+}
+
+#search-bar {
+    position: relative;
+    left: 75%;
+    bottom: 50px;
+    display: flex;
+    width: max-content;
+}
+
+#search-field {
+    height: 50px;
+    width: 250px;
+    border-radius: 15px 0 0 15px;
+}
+
+#btn {
+    background: #EC0000;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+}
+
+#btn img {
+    width: 45px;
+}
+
+/* Estilo Background */
+
+#bg-img img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
+    height: 120%;
+}
+
+/* Conheça meus gostos musicais */
+
+#sobre-mim {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin:45px 0 -30px 0;
+    padding: 30px;
+}
+
+/* Estilos Albuns */
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.album-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+.album {
+    width: 19em;
+    height: 28em;
+    text-align: center;
+    background-color: #282828;
+    border-radius: 15px;
+    margin: 100px 30px 0 30px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+h3 {
+    color: #dcdcdc;
+    font-size: 16px;
+     text-align: left;
+     margin: 20px;
+}
+
+/* Media Query - max 480px */
+@media (max-width: 480px) {
+    
+    footer {
+        text-align: center;
+    }
+
+    #img-wrap {
+        margin-left: -50px;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+    
+    #sobre-mim {
+        font-size: 24px;
+    }
+
+    #search-bar {
+        display: none;
+
+        
+    }
+    #bg-img {
+        display: none;
+    }
+}
+
+
+/* Meida Query - max 1024 */
